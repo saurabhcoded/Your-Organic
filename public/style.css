@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Gochi+Hand&family=Poppins:wght@200;400;800;900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.heading {
+  font-family: "Gochi Hand", cursive !important;
+  font-size: 5.2rem;
+  line-height: 4.7rem;
+}
+.text-primary {
+  color: white !important;
+}
+.text-hand {
+  font-family: "Gochi Hand", cursive !important;
+}
+.nav-link {
+  color: white;
+}
+.btn-outline-premium {
+  border: 1px solid #57ac49;
+  color: #57ac49;
+  background-color: transparent;
+  transition: 0.3s;
+  padding: 10px 20px;
+}
+.btn-outline-premium:hover {
+  border: 1px solid #57ac49;
+  color: white;
+  background-color: #57ac49;
+  border-radius: 10px !important;
+}
+.visible {
+  background-color: #57ac49 !important;
+}
+.text-overlay {
+  position: relative;
+  top: -60px;
+}
+#section3 ul li {
+  list-style: none;
+}
+.footer li {
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .heading {
+    font-family: "Gochi Hand", cursive !important;
+    font-size: 3rem;
+    line-height: 3.1rem;
+    font-weight: 800;
+    text-align: center;
+  }
+}
