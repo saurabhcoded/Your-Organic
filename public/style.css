@@ -6,6 +6,7 @@
 .heading {
   font-family: "Gochi Hand", cursive !important;
   font-size: 5.2rem;
+  color: white;
   line-height: 4.7rem;
 }
 .text-primary {
@@ -43,7 +44,9 @@
 .footer li {
   list-style-type: none;
 }
-
+.text-success {
+  color: #57ac49 !important;
+}
 @media only screen and (max-width: 600px) {
   .heading {
     font-family: "Gochi Hand", cursive !important;
